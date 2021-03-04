@@ -20,7 +20,7 @@ $(document).ready(function() {
 
     // Shows all hidden items
     $("#re-appear").click(function() {
-        $("#boldHidden, .list, ul li:first-child").show();
+        $("#boldHidden, .list, ul li:first-child, p").show();
     });// End of function
 
 
