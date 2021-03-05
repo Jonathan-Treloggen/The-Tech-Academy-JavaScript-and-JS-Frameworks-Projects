@@ -97,3 +97,10 @@ $(document).ready(function() {
         $("#w3").attr("href", "https://www.learncodinganywhere.com/");
     });//End of function
 });
+
+function validFunction() {
+    var nameValid = document.getElementById("name");
+    if(!nameValid.checkValidity()) {
+        document.getElementById("validationMessage").innerHTML = nameValid.validationMessage;
+    }
+}

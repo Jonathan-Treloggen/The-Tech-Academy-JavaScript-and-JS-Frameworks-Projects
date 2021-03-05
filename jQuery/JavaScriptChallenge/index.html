@@ -43,11 +43,14 @@
     <button id="hideAllP">Toggle hide() and show() with all p</button>
 
     <hr>
+    <p id="validationMessage"></p>
     <br>
     <br>
-    Name: <input type="text" name="fullName"/>
+    Name: <input id="name" type="text" name="fullName" min="2" max="50" required/>
     <br>
     Email: <input type="email" name="email"/>
+    <br>
+    <button onclick="validFunction()">Submit</button>
 
     <hr>
     <br>
