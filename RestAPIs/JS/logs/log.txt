@@ -1,0 +1,4 @@
+********************************************************************************
+Data/Time: 3/9/2021
+Exception Info: {"status":500,"statusText":"Internsl Server Error","message":"ENOENT: no such file or directory, open 'C:\\Users\\jonat\\OneDrive\\Desktop\\The-Tech-Academy-JavaScript-and-JS-Frameworks-Projects\\RestAPIs\\JS\\assets\\pies2.json'","error":{"errno":-4058,"call":"open","code":"INTERNAL_SERVER_ERROR","message":"ENOENT: no such file or directory, open 'C:\\Users\\jonat\\OneDrive\\Desktop\\The-Tech-Academy-JavaScript-and-JS-Frameworks-Projects\\RestAPIs\\JS\\assets\\pies2.json'"},"requestInfo":{"hostName":"localhost","path":"/api/"}}
+********************************************************************************
