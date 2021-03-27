@@ -5,6 +5,6 @@ function whosThatPokemon() {
             document.getElementById("who").innerHTML = this.responseText;
         }
     };
-    xhttp.open("Get", "JS/answer.txt", true);
+    xhttp.open("Get", "JS/server.txt", true);
     xhttp.send();
 }
